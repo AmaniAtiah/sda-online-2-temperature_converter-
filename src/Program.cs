@@ -1,6 +1,6 @@
 ﻿class Program
 {
-    public static string tempConvert(double tempValue, string unit)
+    public static string TempConvert(double tempValue, string unit)
     {
         switch (unit)
         {
@@ -54,7 +54,7 @@
                 }
 
 
-                Console.WriteLine($"Converted :  {tempConvert(temperatureValue, tempUnit)}");
+                Console.WriteLine($"Converted :  {TempConvert(temperatureValue, tempUnit)}");
 
 
             }
